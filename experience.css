@@ -1,0 +1,270 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.experience-image {
+    margin-bottom: 100px;
+}
+
+.experience-image-top {
+    display: flex;
+    /* margin-bottom: px; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience-image-top h1 {
+    font-weight: 200;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.experience-image-bottom {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.experience-image-bottom-div {
+    display: block;
+    padding-right: 24px;
+    border-right: 1px solid #94a3b8;
+    border-radius: 1px;
+}
+
+.experience-image-bottom-left {
+
+    font-family: 'Inter 500', sans-serif;
+    color: #5a7184;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.experience-image1{
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/618b5be656edd84f4b7562e5_Anvesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.experience-image1 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.experience-image1 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image1 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image2 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image3 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image4 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image5 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image6 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image7 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.experience-image8 {
+    /* /*  */
+    /* margin-right: 24px; */
+    padding-bottom: 0px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    /* background-image: url("https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/6193c6af72d3730d27e56a41_Subesh.png"); */
+    background-position: 0 0;
+    background-size: cover;
+    /* width: 40px; */
+    /* height: 40px; */
+}
+
+
+
+.experience-scroll {
+    overflow-x: scroll;
+    max-width: 80%;
+    overflow: auto;
+    position: static;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.experience-scroll i {
+    margin-top: 20px;
+}
+
+
+.request-call-back-button {
+    margin-right: 24px;
+    margin-bottom: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.request-call-back-inside {
+    color: white;
+    object-fit: cover;
+    display: flex;
+    height: 48px;
+    margin-bottom: 24px;
+    justify-content: center;
+     align-items: center;
+    border-radius: 12px;
+    background-color: #1565d8;
+   
+}
+.images{
+    margin-right:20px
+}
+.images-collection
+{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+@media(max-width:480px){
+    .images-collection{
+        /* width: 80%; */
+        display: flex;
+        flex-direction: row;
+        /* overflow-x: scroll; */
+    }
+    .experience-scroll i{
+        margin-left: 20px;
+        display: none;
+    }
+    .images{
+        margin-left: 20px;
+        /* margin-right: 10px; */
+    }
+    .experience-exclamation{
+        padding-top: 100px;
+        width: 80px;
+        height: 80px;
+    }
+    .experience-image-top h1 {
+        font-size: 18px;
+    }
+}
+.images-collection div img:hover{
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    border: #1565d8 solid 2px;
+}

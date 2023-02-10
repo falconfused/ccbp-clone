@@ -1,0 +1,175 @@
+#coaches-heading {
+    color: #183b56;
+    /* max-width: 1200px; */
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
+
+
+#coaches-heading-div {
+    width: 1200px;
+    margin: auto;
+    /* max-width: 70%; */
+}
+
+#coaches-heading-div h1 {
+    text-align: left;
+}
+
+
+
+.coaches-container {
+
+    /* display: flex; */
+    /* width: 100%; */
+    /* justify-content: space-between; */
+}
+
+.coaches-border {
+    max-width: 1130px;
+    margin: auto;
+
+    align-self: center;
+    padding: 48px 32px;
+    display: flex;
+    margin-bottom: 0;
+    /* padding: 48px 32px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    background-color: #f9fbfe;
+}
+
+.coaches-section-div {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coaches-top-text {
+    margin-bottom: 12px;
+    color: #183b56;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.coaches-section-element {
+    width: 170px;
+    overflow: hidden;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 0 rgb(96 97 112 / 16%);
+}
+
+.coaches-section-element-img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.rahul {
+    color: #183b56;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.qualification {
+    color: #535353;
+    font-size: 12px;
+    line-height: 15.62px;
+}
+
+.coaches-section-bottom-text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #183b56;
+    text-align: center;
+}
+
+.many-more {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    color: #5a7184;
+    text-align: center;
+}
+
+.student-at-ccbp {
+    color: #333;
+    font-size: 20px;
+    /* display: none; */
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* display: block; */
+
+    /* box-shadow: 1px 1px 2px 0 rgb(96 97 112 / 16%); */
+    width: 225px;
+}
+
+
+
+
+
+
+
+.student-at-ccbp img:first-child {
+
+
+    overflow: hidden;
+    border: solid 1px #cbd5e1;
+    border-radius: 16px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.student-button {
+    font-family: sans-serif;
+    position: relative;
+    border: solid 1px #cbd5e1;
+    display: flex;
+    margin-top: -39px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 1px 1px 2px 0 rgb(96 97 112 / 16%);
+    background-color: #fff;
+    text-align: center;
+
+}
+
+@media(max-width:1280px) {
+    #student-at-ccbp {
+        display: none;
+    }
+
+}
+
+@media(max-width:480px) and (min-width:1280px) {
+    .coaches-border {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .coaches-container {
+        width: 80%;
+        /* max-width: 100%; */
+    }
+}

@@ -1,0 +1,47 @@
+#companies {
+    /* max-width: 1200px; */
+    font-family: sans-serif;
+    display: flex;
+    /* align-self: center; */
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 300;
+    word-spacing: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#companies-logo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#companies-logo img{
+    max-width: 90%;
+}
+
+#companies h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+
+#companies-logo-small{
+    display: none ;
+}
+
+@media(max-width:480px) {
+    #companies-logo{
+        display: none;
+    }
+
+    #companies-logo-small{
+        display: block;
+        align-self: center;
+    }
+}

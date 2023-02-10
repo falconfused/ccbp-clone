@@ -1,0 +1,119 @@
+#awards-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    height:500px;
+    margin-bottom: 100px;
+ 
+    align-items: center;
+    background-image: url(https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/award-section/awards-section-bg-pattern.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-color: #212635;
+
+}
+
+#awards-section h3 {
+    font-size: 26px;
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#awards-section h5 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#awards-section-top-left {
+
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#awards-section-right img {
+    width: 95%;
+    /* max-width: 40%; */
+    max-width: 500px;
+
+}
+#awards-section-bottom-left-img {
+    
+    width: 360px;
+    /* max-6idth: 300px; */
+}
+
+
+/* 
+
+@media (max-width:900px){
+    #awards-section-right img {
+ 
+        width: 100px;
+    
+    }
+    #trophy-img{
+        display: none;
+       }
+} */
+
+@media (max-width:480px) {
+
+    #trophy-img{
+     /* height: 80px; */
+    }
+    #awards-section {
+        height:700px;
+        display: flex;
+        flex-direction: column;
+        align-items:
+        center ;
+    }
+
+    #awards-section-right img {
+        width: 360px;
+
+    }
+    #awards-section-top-left {
+
+        width: 360px;
+        display: flex;
+        /* flex-direction: row; */
+        text-align: center;
+        justify-content: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #awards-section-left{
+        /* max-width: 30%; */
+    }
+    #awards-section-bottom-left-img {
+        width: 360px;
+        /* max-width: 300px; */
+    }
+
+    /* #awards-section h3 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 0px;
+        margin: 0px;
+    } */
+
+    /* #awards-section h5 {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 30px;
+        font-size: 12px;
+    } */
+}

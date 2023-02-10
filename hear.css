@@ -1,0 +1,53 @@
+.hear{
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    /* max-width: 1200px; */
+    margin: auto;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.hear-images{
+    overflow-x: scroll;
+
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+
+
+}
+.hear-text{
+    font-family: 'Inter 400',sans-serif;
+    color: #183b56;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.hear i{
+padding-top: 100px;
+/* margin-left: 50px; */
+}
+.hear-review{
+    /* overflow-x: scroll; */
+
+}
+
+
+@media(max-width:480px){
+    .hear i{
+        display: none;
+    }
+    .hear {
+        max-width: 1200px;
+        
+    }
+    div.hear-review{
+        position: static;
+        overflow-x: scroll;
+    }
+
+}

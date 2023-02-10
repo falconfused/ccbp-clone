@@ -1,0 +1,53 @@
+#header {
+    margin: auto;
+    max-width: 1200px;
+    padding-left: 0px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: -100px; */
+    justify-content: space-between;
+}
+
+#top-side-panel {
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+#top-side-panel p {
+    padding-left: 30px;
+}
+
+#Home {
+    color: rgb(43, 107, 226);
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+
+}
+
+#Home i {
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+#Login {
+    color: rgb(43, 107, 226);
+    display: flex;
+
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+#Login i {
+    padding-left: 10px;
+    padding-top: 18px;
+
+}
+
+#tripledash{
+    display: none;
+}
